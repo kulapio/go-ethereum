@@ -36,7 +36,7 @@ import (
 )
 
 const (
-	maxRequestContentLength = 1024 * 512
+	maxRequestContentLength = 1024 * 5120 *10 // 50MB
 )
 
 var (
